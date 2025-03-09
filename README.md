@@ -1,4 +1,4 @@
-# Proyek Max Heap
+# Proyek Max Heapify C++
 
 ### Identitas
 

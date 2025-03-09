@@ -1,6 +1,9 @@
 Nama: Muhammad Faathir Arsa
+
 NIM: 1313623023
+
 Program Studi: Ilmu Komputer A
+
 Mata Kuliah: Desain dan Analisis Algoritma
 
 # Proyek Max Heap

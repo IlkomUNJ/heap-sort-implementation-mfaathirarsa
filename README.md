@@ -1,19 +1,22 @@
-Nama: Muhammad Faathir Arsa
-
-NIM: 1313623023
-
-Program Studi: Ilmu Komputer A
-
-Mata Kuliah: Desain dan Analisis Algoritma
-
 # Proyek Max Heap
 
+### Identitas
+
+- **Nama**: Muhammad Faathir Arsa
+- **NIM**: 1313623023
+- **Program Studi**: Ilmu Komputer A
+- **Mata Kuliah**: Desain dan Analisis Algoritma
+
 ### Deskripsi
-Ini adalah implementasi struktur data **Max Heap** menggunakan C++. Max Heap adalah heap yang memastikan nilai diatas lebih besar dari nilai bawahannya.
+Ini adalah implementasi struktur data **Max Heap** menggunakan C++. Max Heap adalah jenis heap di mana setiap elemen di dalamnya lebih besar dari nilai anak-anaknya.
+
+---
 
 ### Prerequisite
-- `Meson` & `Ninja` untuk build system.
-- Compiler dari `build-essential`
+- `Meson` dan `Ninja` untuk sistem build.
+- Compiler dari `build-essential`.
+
+---
 
 ### Cara Instalasi dan Kompilasi
 
@@ -24,7 +27,7 @@ Ini adalah implementasi struktur data **Max Heap** menggunakan C++. Max Heap ada
    cd heap-sort-implementation-mfaathirarsa
    ```
 
-2. **Install**
+2. **Install Dependencies**
 
    Di Ubuntu/Debian:
 
@@ -33,7 +36,7 @@ Ini adalah implementasi struktur data **Max Heap** menggunakan C++. Max Heap ada
    sudo apt install build-essential meson ninja-build
    ```
 
-3. **Cara Compile Program**
+3. **Kompilasi Program**
 
    ```bash
    meson setup build
@@ -45,6 +48,8 @@ Ini adalah implementasi struktur data **Max Heap** menggunakan C++. Max Heap ada
    ```bash
    ./build/MaxHeapify
    ```
+
+---
 
 ### Struktur Direktori
 
@@ -59,7 +64,10 @@ heap-sort-implementation-mfaathirarsa/
 └── build/              # Hasil kompilasi
 ```
 
+---
+
 ### Fungsi Utama
+
 - **insert()**: Menyisipkan elemen ke dalam Max Heap.
 - **extractMax()**: Mengambil elemen maksimum.
 - **buildMaxHeap()**: Membuat Max Heap dari array.
